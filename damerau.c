@@ -23,7 +23,7 @@ ZEND_BEGIN_ARG_INFO(arginfo_damerau_levenshtein, 0)
     ZEND_ARG_INFO(0, cost_tran)
 ZEND_END_ARG_INFO()
 
-static function_entry damerau_levenshtein_functions[] = {
+static zend_function_entry damerau_levenshtein_functions[] = {
 
   PHP_FE(damerau_levenshtein, arginfo_damerau_levenshtein)
 
