@@ -2,10 +2,11 @@ language: php
 php:
   - 5.3
   - 5.4
+  - 5.5
 
 before_script:
   - phpize
   - ./configure --with-damerau
   - make
 
-script: make test
+script: echo 'n' | make test
