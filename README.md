@@ -3,6 +3,8 @@
 This is C extension for PHP.
 It's contains multibyte (utf-8 compatible), memory efficient implementation of Damerau-Levenshtein algorithm, more information at [wikipedia.org](http://en.wikipedia.org/wiki/Damerau–Levenshtein_distance).
 
+[![Build Status](https://api.travis-ci.org/mitallast/damerau-levenshtein.png)](https://travis-ci.org/mitallast/damerau-levenshtein)
+
 # Description
 
 damerau_levenshtein – calculate Damerau-Levenshtein distance between two strings.
