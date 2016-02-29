@@ -1,4 +1,7 @@
 language: php
+
+sudo: false
+
 php:
   - 5.3
   - 5.4
@@ -10,4 +13,5 @@ before_script:
   - ./configure --with-damerau
   - make
 
-script: echo 'n' | make test
+script:
+ - echo 'n' | make test
