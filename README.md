@@ -3,6 +3,8 @@
 This extension is no longer maintained! No PHP7 support!
 If you want extension for php7, you should rewrite it using new php7 api.
 
+You can try https://github.com/jaspart/damerau extension.
+
 # About
 
 This is C extension for PHP.
